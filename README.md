@@ -1,7 +1,8 @@
 # Boilerplate for REST Microservice in Java
-[![Build Status](https://travis-ci.org/micro-rest.svg?branch=master)](https://travis-ci.org/micro-rest)
-[![codecov](https://codecov.io/gh/micro-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/micro-rest)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/micro-rest/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/goboilerplates/micro-rest.svg?branch=master)](https://travis-ci.org/goboilerplates/micro-rest)
+[![codecov](https://codecov.io/gh/goboilerplates/micro-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/goboilerplates/micro-rest)
+[![](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-rest&metric=alert_status)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-rest)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/goboilerplates/micro-rest/blob/master/LICENSE)
 ## Installation
 Install dependencies
 
