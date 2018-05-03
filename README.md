@@ -4,7 +4,7 @@
 [![](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-rest&metric=alert_status)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-rest)
 [![](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-rest&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-rest)
 [![](https://images.microbadger.com/badges/image/javaboilerplates/micro-rest.svg)](https://microbadger.com/images/javaboilerplates/micro-rest)
-[![JavaDoc](https://img.shields.io/badge/javadoc-API-blue.svg)](https://javaboilerplates-micro-rest.aikaka.net/apidocs/)
+[![JavaDoc](https://img.shields.io/badge/javadoc-API-blue.svg)](https://javaboilerplates-micro-rest.aikaka.net/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/javaboilerplates/micro-rest/blob/master/LICENSE)
 ## Features
 - REST API and Swagger UI
