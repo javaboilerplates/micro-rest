@@ -1,3 +1,8 @@
+info:
+  name: micro-rest
+  version: 0.0.0
+  description: Boilerplate for REST Microservice in Java
+  documentation: https://github.com/javaboilerplates/micro-rest
 server:
   port: 8000
 spring:
