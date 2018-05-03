@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/javaboilerplates/micro-rest.svg?branch=master)](https://travis-ci.org/javaboilerplates/micro-rest)
 [![codecov](https://codecov.io/gh/javaboilerplates/micro-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/javaboilerplates/micro-rest)
 [![](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-rest&metric=alert_status)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-rest)
+[![](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-rest&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-rest)
 [![](https://images.microbadger.com/badges/image/javaboilerplates/micro-rest.svg)](https://microbadger.com/images/javaboilerplates/micro-rest)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/javaboilerplates/micro-rest/blob/master/LICENSE)
 ## Features
