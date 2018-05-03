@@ -37,8 +37,18 @@ after_success:
   - ./mvnw clean package -DskipTests=true
   - bash script/Dockerbuild.sh
 
+before_deploy:
+  - ./mvnw javadoc:javadoc
+
 deploy:
-  provider: script
-  script: bash script/Dockerpush.sh
+  local-dir: target/site
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  fqdn: javaboilerplates-micro-rest.aikaka.net
   on:
     branch: master
+
+after_deploy:
+    - bash script/Dockerpush.sh
