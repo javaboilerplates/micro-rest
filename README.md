@@ -1,8 +1,15 @@
 # Boilerplate for REST Microservice in Java
-[![Build Status](https://travis-ci.org/goboilerplates/micro-rest.svg?branch=master)](https://travis-ci.org/goboilerplates/micro-rest)
-[![codecov](https://codecov.io/gh/goboilerplates/micro-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/goboilerplates/micro-rest)
+[![Build Status](https://travis-ci.org/javaboilerplates/micro-rest.svg?branch=master)](https://travis-ci.org/javaboilerplates/micro-rest)
+[![codecov](https://codecov.io/gh/javaboilerplates/micro-rest/branch/master/graph/badge.svg)](https://codecov.io/gh/javaboilerplates/micro-rest)
 [![](https://sonarcloud.io/api/project_badges/measure?project=net.aikaka.javaboilerplates%3Amicro-rest&metric=alert_status)](https://sonarcloud.io/dashboard?id=net.aikaka.javaboilerplates%3Amicro-rest)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/goboilerplates/micro-rest/blob/master/LICENSE)
+[![](https://images.microbadger.com/badges/image/javaboilerplates/micro-rest.svg)](https://microbadger.com/images/javaboilerplates/micro-rest)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/javaboilerplates/micro-rest/blob/master/LICENSE)
+## Features
+- REST API and Swagger UI
+- Metrics and health check
+- CI with Travis
+- Docker Build
+
 ## Installation
 Install dependencies
 
@@ -26,6 +33,20 @@ Build package
 ./mvnw package
 ```
 
+## Docker support 
+
+Build docker image
+
+```
+bash script/Dockerbuild.sh
+```
+
+Run docker container
+
+```
+
+docker run -d --name micro-rest -p 8000:8000 javaboilerplates/micro-rest
+```
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.

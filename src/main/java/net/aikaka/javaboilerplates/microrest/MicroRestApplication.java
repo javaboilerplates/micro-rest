@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MicroRestApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MicroRestApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MicroRestApplication.class, args); //NOSONAR
+    }
 }

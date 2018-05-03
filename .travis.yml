@@ -3,7 +3,11 @@ notifications:
     on_success: never
     on_failure: always
 
-sudo: false
+sudo: required
+
+services:
+  - docker
+
 install: true
 
 addons:
@@ -30,3 +34,11 @@ cache:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+  - ./mvnw clean package -DskipTests=true
+  - bash script/Dockerbuild.sh
+
+deploy:
+  provider: script
+  script: bash script/Dockerpush.sh
+  on:
+    branch: master

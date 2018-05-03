@@ -6,7 +6,7 @@
 	<groupId>net.aikaka.javaboilerplates</groupId>
 	<artifactId>micro-rest</artifactId>
 	<version>0.0.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>micro-rest</name>
 	<description>Boilerplate for REST Microservice in Java</description>
@@ -22,6 +22,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<core.version>0.0.0</core.version>
+		<springfox-swagger2.version>2.8.0</springfox-swagger2.version>
 	</properties>
 
 	<repositories>
@@ -58,8 +60,13 @@
         <dependency>
             <groupId>net.aikaka.javaboilerplates</groupId>
             <artifactId>core</artifactId>
-            <version>0.0.0</version>
+            <version>${core.version}</version>
         </dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${springfox-swagger2.version}</version>
+		</dependency>
     </dependencies>
 
 	<build>
