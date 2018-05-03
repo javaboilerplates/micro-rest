@@ -39,10 +39,9 @@ after_success:
 
 before_deploy:
   - ./mvnw javadoc:javadoc
-  - cp -a site/. target/site/
 
 deploy:
-  local-dir: target/site
+  local-dir: target/site/apidocs
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
