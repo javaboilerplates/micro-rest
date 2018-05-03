@@ -34,7 +34,7 @@ cache:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - ./mvnw clean package -DskipTests=true
+  - ./mvnw package -DskipTests=true
   - bash script/Dockerbuild.sh
 
 before_deploy:
