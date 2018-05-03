@@ -11,6 +11,8 @@ spring:
       url: http://localhost:8002
       username: admin
       password: admin
+  application:
+    name: ${info.name}
 management:
   security:
     enabled: false
